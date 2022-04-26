@@ -20,6 +20,7 @@ class Recoll < Formula
     system "./configure", "--disable-webkit",
                           "--disable-python-chm",
                           "--disable-qtgui",
+                          "--enable-recollq",
                           "--prefix=#{prefix}"
     system "make", "install"
   end
