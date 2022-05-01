@@ -1,4 +1,4 @@
-class PDFannots2json < Formula
+class Pdfannots2json < Formula
   desc "Extract annotations from PDFs and convert them to JSON"
   homepage "https://github.com/mgmeyers/pdfannots2json"
   license "AGPL-3.0"
