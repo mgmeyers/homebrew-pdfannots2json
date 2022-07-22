@@ -3,8 +3,8 @@ class Pdfannots2json < Formula
   homepage "https://github.com/mgmeyers/pdfannots2json"
   license "AGPL-3.0"
 
-  url "https://github.com/mgmeyers/pdfannots2json/archive/refs/tags/1.0.5.tar.gz"
-  sha256 "fd69d062b46bf25651aed1c5026903c3f6fb11fe7d13e05e3a51238cf5646dbe"
+  url "https://github.com/mgmeyers/pdfannots2json/archive/refs/tags/1.0.6.tar.gz"
+  sha256 "35be622af19b22a0714ee41bfa9b409f47b707ea5c763b6ff6929fc5d48781fc"
   head "https://github.com/mgmeyers/pdfannots2json"
 
   depends_on "tesseract"
