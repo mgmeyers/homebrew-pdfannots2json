@@ -3,8 +3,8 @@ class Pdfannots2json < Formula
   homepage "https://github.com/mgmeyers/pdfannots2json"
   license "AGPL-3.0"
 
-  url "https://github.com/mgmeyers/pdfannots2json/archive/refs/tags/1.0.9.tar.gz"
-  sha256 "4e1e6374e59c2e3000d83398364a577162d6481e33ba719dce8a0ac582f02a4d"
+  url "https://github.com/mgmeyers/pdfannots2json/archive/refs/tags/1.0.10.tar.gz"
+  sha256 "ea04811c88153e3f69bb263f0f996286001628bd61461bc48b27880e9e1c4efd"
   head "https://github.com/mgmeyers/pdfannots2json"
 
   depends_on "tesseract"
@@ -21,6 +21,6 @@ class Pdfannots2json < Formula
   end
 
   test do
-    assert_match "v1.0.9", shell_output("#{bin}/pdfannots2json -v 2>&1", 2)
+    assert_match "v1.0.10", shell_output("#{bin}/pdfannots2json -v 2>&1", 2)
   end
 end
